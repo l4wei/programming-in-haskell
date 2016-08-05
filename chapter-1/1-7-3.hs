@@ -1,2 +1,2 @@
-product [] = 1
-product (x:xs) = x * product xs
+product' [] = 1
+product' (x:xs) = x * product' xs
